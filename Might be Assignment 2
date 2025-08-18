@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNGsi6aO7ObcuenEqmiO+EY",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/areebuddin251-hub/AIAC/blob/main/Might%20be%20Assignment%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WchBt-O_amxU",
+        "outputId": "d69054dd-8a3f-4297-fb90-d1008698ae36"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter first number: 1\n",
+            "enter second number: 2\n",
+            "1 2\n",
+            "1 + 2 = 3\n",
+            "0.5\n",
+            "1\n",
+            "1\n",
+            "0\n"
+          ]
+        }
+      ],
+      "source": [
+        "num1=int(input(\"enter first number: \"))\n",
+        "num2=int(input(\"enter second number: \"))\n",
+        "print(num1,num2)\n",
+        "print(num1,'+',num2, '=',num1+num2)\n",
+        "print(num1/num2)\n",
+        "print(num1%num2)\n",
+        "print(num1**num2)\n",
+        "print(num1//num2)"
+      ]
+    }
+  ]
+}
